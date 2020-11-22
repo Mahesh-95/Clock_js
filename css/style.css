@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("./images/clock.png");
+    background: url("../images/clock.png");
     background-size: cover;
     border: 15px solid rgba(0,0,0,1);
     border-radius: 50%;
