@@ -15,10 +15,10 @@ setInterval(()=>{
     sec.style.transform=`rotateZ(${ss}deg)`;
 
     if (t>6 && t<12 ){
-        bg.style.background="linear-gradient(to bottom, white, skyblue)";
+        bg.style.background=`url("./images/clock_bg2a.png")`;
     }else if(t>12 && t<19){
-        bg.style.background="linear-gradient(to bottom, yellow, orangered)";
+        bg.style.background=`url("./images/clock_bg3a.png")`;
     }else{
-        bg.style.background="linear-gradient(to bottom, black, darkblue)";
+        bg.style.background=`url("./images/clock_bg1a.png")`;
     }
 })
