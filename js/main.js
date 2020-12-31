@@ -15,7 +15,7 @@ setInterval(()=>{
     sec.style.transform=`rotateZ(${ss}deg)`;
 
     if (t>6 && t<12 ){
-        bg.style.backgroundImage=`url("./images/clock_bg3a.png")`;
+        bg.style.backgroundImage=`url("./images/clock_bg2a.png")`;
     }else if(t>12 && t<19){
         bg.style.backgroundImage=`url("./images/clock_bg3a.png")`;
     }else{
